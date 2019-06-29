@@ -1,7 +1,6 @@
-clone:
-  path: github.com/JavaRestSpringIntegrations/spring_mvc
-  tags: true
 build:
-  loginsight-java-api:
-    image: java:8-jdk
-    pull: true
+  image: maven:3.3.3-jdk-8-onbuild
+  pull: true
+  commands:
+    - git log | head -n 20
+    - mvn clean install -Dgpg.skip=true
