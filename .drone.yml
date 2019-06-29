@@ -1,0 +1,7 @@
+clone:
+  path: github.com/JavaRestSpringIntegrations/spring_mvc
+  tags: true
+build:
+  loginsight-java-api:
+    image: java:8-jdk
+    pull: true
