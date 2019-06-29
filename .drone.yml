@@ -5,3 +5,4 @@ pipeline:
     commands:
       - git log | head -n 20
       - mvn clean -Dgpg.skip=true
+      - mvn check
