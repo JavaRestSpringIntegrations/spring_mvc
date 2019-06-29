@@ -4,7 +4,7 @@ jdk:
   - oraclejdk8
 
 script:
-  - mvn -Pcheck-checkstyle,check-cycles,check-pmd-cpd
+  - mvn check
 
 cache:
   directories:
