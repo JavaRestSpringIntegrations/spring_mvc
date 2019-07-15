@@ -48,4 +48,10 @@ public class DemoController {
         log.info("welcomeMessage called");
         return demoService.getWelcomeMessage();
     }
+
+    @ModelAttribute("wishMessage")
+    public String wishMesssage() {
+        log.info("wishMesssage called");
+        return "Wish you all success";
+    }
 }

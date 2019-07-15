@@ -5,5 +5,6 @@
 <body>
     <h1>${helloMessage}</h1>
     <h2>${welcomeMessage}</h2>
+    <h3>${wishMessage}</h3>
 </body>
 </html>
