@@ -14,7 +14,7 @@ Steps:
 4. `Dispatcher Servlet` calls the specific handler method
 5. The handler method returns the model and view name
 6. The `Dispatcher Servlet` now has the logical view name
-7. After the `View Resolver` receives the view name, it needs to file the **jsp** file in the WEB-INF/view directory
+7. After the `View Resolver` receives the view name, it needs to find the **jsp** file in the WEB-INF/view directory
 8. The file name is returned to `Dispatcher Servlet` and `Dispatcher Servlet` executes it 
 9. The view is rendered and content is given to `Dispatcher Servlet`
 10. The `Dispatcher Servlet` gives the response back to browser
