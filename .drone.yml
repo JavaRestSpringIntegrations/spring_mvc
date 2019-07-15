@@ -6,6 +6,3 @@ pipeline:
       - git log | head -n 20
       - mvn clean -Dgpg.skip=true
       - mvn pmd:check
-  cache:
-   mount:
-    - $HOME/.m2
