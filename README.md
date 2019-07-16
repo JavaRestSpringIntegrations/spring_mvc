@@ -32,7 +32,7 @@ using the Customer Model. The same controller will be used to view the Customer 
 
 ![MVC Process](images/mvc-process.svg)
 
-Image Courtesy : [wiki] [1]
+Image Courtesy : [wiki][1]
 ## Request Parameter
 
 Code file - `Demo Controller`; Line 41
