@@ -30,3 +30,5 @@ look like below:
 
 The data type used here is String, we can use other data types
 as well.
+
+### JSTL Tags
