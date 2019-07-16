@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import xenon.learnprogramming.service.DemoService;
 
@@ -35,8 +36,10 @@ public class DemoController {
     // prefix + name + suffix
     // /WEB-INF/view/welcome.jsp
     @GetMapping("welcome")
-    public String welcome(Model model) {
-        model.addAttribute("helloMessage",demoService.getHelloMessage("Sunil")); // k,v pair
+    public String welcome(@RequestParam String user, @RequestParam int age, Model model) {
+        //model.addAttribute("helloMessage",demoService.getHelloMessage("Sunil")); // k,v pair
+        model.addAttribute("helloMessage",demoService.getHelloMessage(user)); //with Request parameter
+        model.addAttribute("age",age);
         log.info("model={}",model);
 
         return "welcome"; // this is logical view name ( name of the jsp file )

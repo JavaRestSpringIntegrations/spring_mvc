@@ -18,3 +18,15 @@ Steps:
 8. The file name is returned to `Dispatcher Servlet` and `Dispatcher Servlet` executes it 
 9. The view is rendered and content is given to `Dispatcher Servlet`
 10. The `Dispatcher Servlet` gives the response back to browser
+
+## Request Parameter
+
+Code file - `Demo Controller`; Line 41
+
+When using request parameter the URL will change. The URL will
+look like below:
+
+`http://localhost:8080/todo-list/welcome?user=Sunil`
+
+The data type used here is String, we can use other data types
+as well.
