@@ -19,6 +19,20 @@ Steps:
 9. The view is rendered and content is given to `Dispatcher Servlet`
 10. The `Dispatcher Servlet` gives the response back to browser
 
+## More about Spring MVC
+
+The Model-View-Controller (MVC) is an architectural pattern that separates an application into three main logical 
+components:
+* Model - component corresponds to all the data-related logic that the user works with. This can represent either the data that is being transferred between the View and Controller components or any other 
+business logic-related data.
+* the view - component is used for all the UI logic of the application.
+* the controller - act as an interface between Model and View components to process all the business logic and incoming requests. For example, 
+the Customer controller will handle all the interactions and inputs from the Customer View and update the database 
+using the Customer Model. The same controller will be used to view the Customer data.
+
+![MVC Process](images/mvc-process.svg)
+
+Image Courtesy : [wiki] [1]
 ## Request Parameter
 
 Code file - `Demo Controller`; Line 41
@@ -32,3 +46,6 @@ The data type used here is String, we can use other data types
 as well.
 
 ### JSTL Tags
+
+[1]: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+
