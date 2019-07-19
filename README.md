@@ -1,5 +1,9 @@
 # Spring MVC
 
+[![Build Status](https://cloud.drone.io/api/badges/JavaRestSpringIntegrations/spring_mvc/status.svg)](https://cloud.drone.io/JavaRestSpringIntegrations/spring_mvc)
+![GitHub repo size](https://img.shields.io/github/repo-size/JavaRestSpringIntegrations/spring_mvc.svg)
+[![GitHub license](https://img.shields.io/github/license/JavaRestSpringIntegrations/spring_mvc.svg)](https://github.com/JavaRestSpringIntegrations/spring_mvc/blob/master/LICENSE)
+
 This repo contains the initial info of creating Spring MVC project.
 
 The below diagram shows the flow of Spring MVC request processing.
