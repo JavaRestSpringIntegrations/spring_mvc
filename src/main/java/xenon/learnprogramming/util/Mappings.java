@@ -8,6 +8,7 @@ public final class Mappings {
 
     // == constants ==
     public static final String ITEMS = "items";
+    public static final String ADD_ITEM = "addItems";
 
     // constructor is private so it cannot be re-instantiated
     // == constrcutors ==
